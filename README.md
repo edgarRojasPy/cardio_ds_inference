@@ -25,7 +25,6 @@ The project consists of the following components:
 - **`src/model_loader.py`**: A utility script to load the trained model.
 - **`src/data_preprocessor.py`**: A utility script to preprocess input data.
 - **`models/trained_model_2025-01-02.joblib`**: A trained model saved in the `models/` directory.
-- **`Dockerfile`**: A Dockerfile to containerize the inference pipeline.
 - **`pyproject.toml`**: A Poetry configuration file for dependency management.
 
 ---
