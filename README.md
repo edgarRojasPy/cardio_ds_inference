@@ -13,7 +13,6 @@ This project demonstrates a Dockerized inference pipeline for deploying a machin
 - [Installation](#installation)
 - [Usage](#usage)
 - [Testing](#testing)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
