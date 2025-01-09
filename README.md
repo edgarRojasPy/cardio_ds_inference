@@ -45,6 +45,7 @@ Before running the project, ensure you have the following installed:
 
 2. Install dependencies using Poetry:
    ```
+   Si no se tiene instalado Poetry:
    1.1. Abrir una terminal de powershell y ejecutar el comando:
    (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
    1.2. Agregar el path en variables de entorno, en mi caso es C:\Users\<tuUsuario>\AppData\Roaming\Python\Scripts.
@@ -54,17 +55,17 @@ Before running the project, ensure you have the following installed:
   2. Configurar poetry
     Ingresar al directorio de nuestro repo. Iniciar la configuracion.
     poetry init
-    2.1 Ingresar el nombre del paquete: pima-diabetes-trainer
-    2.2 Version, enter por defecto.
-    2.3 Ingresar la descripción:"Pipeline de entrenamiento para Pima diabetes dataset"
-    2.4 Ingresar el Autor: Ingresar el dato del autor.
-    2.5 Definir el tipo de Licencia: "APACHE 2.0"
-    2.6 Versión del Python a utilizar: Enter, pues muestra que debe ser igual o mayor al que usamos.
-    2.7 Definir dependencias PRINCIPALES de forma interactiva: Yes, enter 
-    2.8 Paquete a agregar o buscar por: Enter
-    2.9 Definir dependencias del DESARROLLO de forma interactiva: Yes, enter
-    2.10 Paquete a agregar o buscar por: Enter 
-    2.11 Confirmar la generacion: Enter.
+ 2.1 Ingresar el nombre del paquete: pima-diabetes-trainer
+ 2.2 Version, enter por defecto.
+ 2.3 Ingresar la descripción:"Pipeline de entrenamiento para Pima diabetes dataset"
+ 2.4 Ingresar el Autor: Ingresar el dato del autor.
+ 2.5 Definir el tipo de Licencia: "APACHE 2.0"
+ 2.6 Versión del Python a utilizar: Enter, pues muestra que debe ser igual o mayor al que usamos.
+ 2.7 Definir dependencias PRINCIPALES de forma interactiva: Yes, enter 
+ 2.8 Paquete a agregar o buscar por: Enter
+ 2.9 Definir dependencias del DESARROLLO de forma interactiva: Yes, enter
+ 2.10 Paquete a agregar o buscar por: Enter 
+ 2.11 Confirmar la generacion: Enter.
 
    ```
 
