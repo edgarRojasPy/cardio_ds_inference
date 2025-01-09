@@ -12,7 +12,6 @@ This project demonstrates a Dockerized inference pipeline for deploying a machin
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Docker Deployment](#docker-deployment)
 - [Testing](#testing)
 - [Contributing](#contributing)
 - [License](#license)
