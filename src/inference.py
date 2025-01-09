@@ -6,6 +6,18 @@ from src.model_loader import load_model
 from src.data_preprocessor import preprocessor_data
 
 def main():
+    """
+    Función principal para cargar un modelo de predicción, preprocesar datos de entrada 
+    y realizar una inferencia con el modelo cargado.
+
+    - Carga un modelo previamente entrenado desde el archivo especificado.
+    - Preprocesa los datos de entrada utilizando las mismas transformaciones aplicadas en el entrenamiento.
+    - Ejecuta una predicción con el modelo y muestra los resultados en consola.
+
+    Raises:
+        Exception: Si ocurre un error durante la carga del modelo, el preprocesamiento 
+                   o la inferencia del modelo.
+    """    
     # Load the model
     model_path = "models/trained_model_2025-01-08.joblib"
     model = load_model(model_path)
