@@ -55,9 +55,9 @@ Before running the project, ensure you have the following installed:
   2. Configurar poetry
     Ingresar al directorio de nuestro repo. Iniciar la configuracion.
     poetry init
- 2.1. Ingresar el nombre del paquete: pima-diabetes-trainer
+ 2.1. Ingresar el nombre del paquete: cardio_ds_inference
  2.2. Version, enter por defecto.
- 2.3. Ingresar la descripción:"Pipeline de entrenamiento para Pima diabetes dataset"
+ 2.3. Ingresar la descripción:"Pipeline de inferencia para Problemas del Corazón"
  2.4. Ingresar el Autor: Ingresar el dato del autor.
  2.5. Definir el tipo de Licencia: "APACHE 2.0"
  2.6. Versión del Python a utilizar: Enter, pues muestra que debe ser igual o mayor al que usamos.
