@@ -40,8 +40,8 @@ Before running the project, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/iair/deployment_model_inference.git
-   cd deployment_model_inference
+   git clone https://github.com/edgarRojasPy/cardio_ds_inference.git
+   cd cardio_ds_inference
    ```
 
 2. Install dependencies using Poetry:
